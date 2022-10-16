@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "846049167395",
+    "firebase_url": "https://communication-33319.firebaseio.com",
+    "project_id": "communication-33319",
+    "storage_bucket": "communication-33319.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846049167395:android:0255a3e60586226d324996",
+        "android_client_info": {
+          "package_name": "com.example.android.communication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846049167395-u84g51jq8jjl41fa7b3me7ug4rqqd146.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.communication",
+            "certificate_hash": "132b3dc87d696bd87a0f4b7c9c69d07a834718bd"
+          }
+        },
+        {
+          "client_id": "846049167395-nqa3amo9pu5cmuhmbs9tjdg8m0udle9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUxWifVW-i9b-sSOlqJwhAv2YSOth5CUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846049167395-nqa3amo9pu5cmuhmbs9tjdg8m0udle9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

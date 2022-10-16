@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ChatActivity"
+    android:transitionName="sharedElement"
+    android:background="@color/colorBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorBlue"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/backBtn_ChA"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_back_white"
+                android:layout_alignParentLeft="true"
+                android:contentDescription="" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_marginRight="40dp"
+                android:layout_centerInParent="true">
+
+                <TextView
+                    android:id="@+id/destinatary_Tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To: Destinatary"
+                    android:fontFamily="@font/karla"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="14dp"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/user_Tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="From: User"
+                    android:fontFamily="@font/karla"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="14dp"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/folder"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_folder_white"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/appBar"
+            android:layout_above="@id/send">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/blue_chat_edittext_background"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:elevation="3dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="13dp">
+
+            <ImageView
+                android:id="@+id/attach_Btn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_attach_file_blue"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp" />
+
+            <EditText
+                android:id="@+id/message_et"
+                android:layout_width="260dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/karla"
+                android:gravity="center_vertical"
+                android:hint="@string/write"
+                android:layout_gravity="center_vertical"
+                android:textColor="#3B3D3D"
+                android:textColorHint="#2196F3" />
+
+            <ImageView
+                android:id="@+id/send_Btn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_send_blue"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

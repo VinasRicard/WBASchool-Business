@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SettingsActivity"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/backBtnSettings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/languageTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/karla_bold"
+            android:text="@string/language"
+            android:textColor="@color/colorBlue"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/languageExplanation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/karla"
+            android:text="@string/appLanguage"
+            android:textColor="@color/colorGrey2"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/appThemeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/karla_bold"
+            android:text="@string/theme"
+            android:textColor="@color/colorBlue"
+            android:textSize="16dp" />
+
+        <Spinner
+            android:id="@+id/themeSp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"></Spinner>
+
+        <TextView
+            android:id="@+id/notificationsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/karla_bold"
+            android:text="@string/notifications"
+            android:textColor="@color/colorBlue"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/notificationsSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2196F3"
+                android:textColorHint="#2196F3"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/notificationsSwitchTxt"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/karla"
+                android:text="@string/activated"
+                android:textColor="@color/colorBlack2"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+
+            <TextView
+                android:id="@+id/customeNotifications"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/karla"
+                android:text="@string/custome"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorBlack"
+                android:textSize="10dp"
+                android:padding="10dp"
+                android:background="@drawable/blue_rounded_square_background" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/shareAppBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_white_btn"
+            android:text="@string/shareApp"
+            android:textColor="@color/colorBlue"
+            android:fontFamily="@font/karla_bold"
+            android:padding="10dp"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:id="@+id/rateAppBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_white_btn"
+            android:text="@string/rateApp"
+            android:textColor="@color/colorBlue"
+            android:fontFamily="@font/karla_bold"
+            android:padding="10dp"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/backBtnSettings"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/back_icon"
+        android:contentDescription="TODO" />
+
+</android.support.constraint.ConstraintLayout>

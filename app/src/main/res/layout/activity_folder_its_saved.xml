@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.FolderItsSavedActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/savedIn"
+                android:fontFamily="@font/karla_bold"
+                android:textColor="@color/colorGrey"
+                android:textSize="18dp"
+                android:paddingLeft="20dp"
+                android:layout_alignParentLeft="true"
+                android:paddingRight="20dp"
+                android:singleLine="false" />
+
+            <ImageView
+                android:id="@+id/popupCloseBtn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_close_grey"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:contentDescription="TODO" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_folder_blue"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/folderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="folderName"
+            android:textSize="18dp"
+            android:fontFamily="@font/karla"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorBlue" />
+
+        <TextView
+            android:id="@+id/changeFolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/changeFolder"
+            android:fontFamily="@font/karla_bold"
+            android:textSize="16dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/deleteFromFolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deleteFromFolder"
+            android:fontFamily="@font/karla_bold"
+            android:textSize="16dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

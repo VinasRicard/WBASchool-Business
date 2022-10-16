@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SchoolorCompanyLicence">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:foregroundGravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginBottom="40dp">
+
+        <TextView
+            android:id="@+id/titleLicence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/karla_bold"
+            android:text="@string/titleSchool"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorBlue"
+            android:textSize="15dp"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/centerNameEt"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:height="50dp"
+            android:background="@drawable/rounded_white_btn"
+            android:elevation="3dp"
+            android:fontFamily="@font/karla"
+            android:hint="@string/schoolName"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/centerCityEt"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:height="50dp"
+            android:background="@drawable/rounded_white_btn"
+            android:elevation="3dp"
+            android:fontFamily="@font/karla"
+            android:hint="@string/city"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/centerMailEt"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:height="50dp"
+            android:background="@drawable/rounded_white_btn"
+            android:elevation="3dp"
+            android:fontFamily="@font/karla"
+            android:hint="@string/mailAdress"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/centerCountryEt"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:height="50dp"
+            android:background="@drawable/rounded_white_btn"
+            android:elevation="3dp"
+            android:fontFamily="@font/karla"
+            android:hint="@string/country"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/personNameEt"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:height="50dp"
+            android:background="@drawable/rounded_white_btn"
+            android:elevation="3dp"
+            android:fontFamily="@font/karla"
+            android:hint="@string/personContact"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/centerPhone"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:height="50dp"
+            android:background="@drawable/rounded_white_btn"
+            android:elevation="3dp"
+            android:fontFamily="@font/karla"
+            android:hint="@string/phoneContact"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp" />
+
+        <Button
+            android:id="@+id/sendMailBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/rounded_blue_btn"
+            android:elevation="3dp"
+            android:fontFamily="@font/karla_bold"
+            android:text="@string/sendMail"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/backBtn5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/back_icon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:contentDescription="TODO" />
+
+</RelativeLayout>

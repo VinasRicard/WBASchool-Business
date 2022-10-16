@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profileOption"
+        android:title="@string/profileOption"
+        android:icon="@drawable/ic_profile" />
+    <item
+        android:id="@+id/settingsOption"
+        android:title="@string/settingsOption"
+        android:icon="@drawable/ic_settings" />
+    <item
+        android:id="@+id/informationOption"
+        android:title="@string/informationOption"
+        android:icon="@drawable/ic_info_blue" />
+    <item
+        android:id="@+id/helpOption"
+        android:title="@string/helpOption"
+        android:icon="@drawable/ic_help" />
+    <item
+        android:id="@+id/legalOption"
+        android:title="@string/termsOfUse"
+        android:icon="@drawable/ic_paper" />
+    <item
+        android:id="@+id/logoutOption"
+        android:title="@string/logoutOption"
+        android:icon="@drawable/ic_exit" />
+</menu>

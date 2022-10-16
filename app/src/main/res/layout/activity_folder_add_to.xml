@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.FolderAddToActivity"
+    android:elevation="4dp"
+    android:background="@drawable/rounded_white_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/addTo"
+                android:fontFamily="@font/karla_bold"
+                android:textColor="@color/colorGrey"
+                android:textSize="18dp"
+                android:paddingLeft="20dp"
+                android:layout_alignParentLeft="true" />
+
+            <ImageView
+                android:id="@+id/popupCloseBtn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_close_grey"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:contentDescription="TODO" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/existingFolder"
+            android:textSize="18dp"
+            android:fontFamily="@font/karla_bold"
+            android:textColor="@color/colorYellow"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp" />
+
+        <Spinner
+            android:id="@+id/existingFolderSp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            tools:ignore="InvalidId"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"></Spinner>
+
+
+        <TextView
+            android:id="@+id/newFolderTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newFolder"
+            android:textSize="18dp"
+            android:fontFamily="@font/karla_bold"
+            android:textColor="@color/colorYellow"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp" />
+
+        <EditText
+            android:id="@+id/newFolderEt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/karla"
+            android:hint="@string/name" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/okBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/karla_bold"
+                android:paddingRight="20dp"
+                android:text="@string/okay"
+                android:textColor="@color/colorBlue"
+                android:textSize="18dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

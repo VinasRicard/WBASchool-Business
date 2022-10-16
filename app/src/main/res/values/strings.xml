@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">WBA School and Business</string>
+    <string name="open" translatable="false">Open</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string-array name="themes">
+        <item>@string/light</item>
+        <item>@string/dark</item>
+    </string-array>
+
+
+    <string name="getStarted">GET STARTED</string>
+    <string name="haveAnAccount">Already have an account?</string>
+    <string name="signInLowercase">Sign In</string>
+    <string name="signInCaps"> SIGN IN</string>
+    <string name="accountTypeQuestion">What TYPE OF ACCOUNT \n do you want to create</string>
+    <string name="mailExample">mail.address@gmail.com</string>
+    <string name="passwordExample">Password</string>
+    <string name="toDestinatary">"To: "</string>
+    <string name="dontHaveAnAccount">"Don't have an account?"</string>
+    <string name="signUpLowercase"> Sign Up</string>
+    <string name="signUpCaps"> SIGN UP</string>
+    <string name="permission">This information is just to improve the user experience and will not be used without your permission.</string>
+    <string name="nameQuestion">"What's your name?"</string>
+    <string name="permission2"> By creating an account you agree to the</string>
+    <string name="profileOption">Profile</string>
+    <string name="settingsOption">Settings</string>
+    <string name="informationOption">Bullying and Mobbing</string>
+    <string name="helpOption">Help</string>
+    <string name="logoutOption">Log out</string>
+    <string name="foldersOption">Folders</string>
+    <string name="archived">Archived</string>
+    <string name="allMessages">All Messages</string>
+    <string name="from">"From: "</string>
+    <string name="importants">Importants</string>
+    <string name="writeAnonymous">Write your anonymous message</string>
+    <string name="write">Write your message</string>
+    <string name="appLanguage">This App is in english. (To change its language, change the language of your device.)</string>
+    <string name="name">Name</string>
+    <string name="accountType">Type of account</string>
+    <string name="worker">Worker</string>
+    <string name="student">Student</string>
+    <string name="center">Center</string>
+    <string name="changePassword">Change password</string>
+    <string name="editAccount">Edit account</string>
+    <string name="deleteAccount">DeleteAccount</string>
+    <string name="school">School</string>
+    <string name="language">Language</string>
+    <string name="theme">Theme</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="notifications">Notifications</string>
+    <string name="activated">Activated</string>
+    <string name="desactivated">Desactivated</string>
+    <string name="custome">Custome \n notifications</string>
+    <string name="shareApp">Share the App</string>
+    <string name="rateApp">Rate the App</string>
+    <string name="termsOfUse">Terms of use</string>
+    <string name="searchCompany">Search your company</string>
+    <string name="searchSchool">Search your school</string>
+    <string name="next">Next</string>
+    <string name="cantDelete">Sorry anonymous messages can\'t be deleted</string>
+    <string name="cantDelete2">Sorry, this message can\'t be deleted</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="personContact">Person to contact</string>
+    <string name="phoneContact">Phone number to contact</string>
+    <string name="schoolName">Name of the school</string>
+    <string name="companyName">Name of the company</string>
+    <string name="mailAdress">Mail adress</string>
+    <string name="sendMail">Send Mail</string>
+    <string name="titleCompany">WBA School and Business in \\n your company</string>
+    <string name="titleSchool">WBA School and Business in \\n your school</string>
+    <string name="copy">Copy</string>
+    <string name="attatchFile">Attaching files feature will be added soon</string>
+    <string name="delete">Delete</string>
+    <string name="writeYourName">You must write your name</string>
+    <string name="cantRegister">Sorry, you can\'t register with this email or password</string>
+    <string name="pleaseComplete">Please, complete all the information</string>
+    <string name="authFailed">Sorry, the mail or the password are not correct.</string>
+    <string name="characters6">Password must be at least 6 characters</string>
+    <string name="addTo">Add to:</string>
+    <string name="existingFolder">Existing folder</string>
+    <string name="okay">Okay</string>
+    <string name="newFolder">New folder</string>
+    <string name="savedIn">This chat is saved in:</string>
+    <string name="changeFolder">Change folder</string>
+    <string name="deleteFromFolder">Delete from folder</string>
+    <string name="resetPasswordToast">We\'ve sended you an email to change your password.</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="deleteAccountForever">Your account will be deleted forever. Are you sure you want to continue?</string>
+    <string name="customeNot1">Always active</string>
+    <string name="customeNot2">Monday-Friday 24h</string>
+    <string name="customeNot3">Monday - Friday 9:00-17:00h</string>
+    <string name="anonymous">Anonymous</string>
+    <string name="close">Close</string>
+
+
+</resources>
